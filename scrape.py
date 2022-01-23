@@ -96,7 +96,7 @@ def scrape_valid_sol():
         time.sleep(1)
 
 
-i = 22
+i = 1
 while not finished_flag:
     time.sleep(5)
     scrape_links(id=i)
